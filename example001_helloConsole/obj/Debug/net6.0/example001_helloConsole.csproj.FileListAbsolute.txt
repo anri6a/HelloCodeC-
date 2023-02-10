@@ -1,0 +1,15 @@
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/bin/Debug/net6.0/example001_helloConsole
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/bin/Debug/net6.0/example001_helloConsole.deps.json
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/bin/Debug/net6.0/example001_helloConsole.runtimeconfig.json
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/bin/Debug/net6.0/example001_helloConsole.dll
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/bin/Debug/net6.0/example001_helloConsole.pdb
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.csproj.AssemblyReference.cache
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.AssemblyInfoInputs.cache
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.AssemblyInfo.cs
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.csproj.CoreCompileInputs.cache
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.dll
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/refint/example001_helloConsole.dll
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.pdb
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/example001_helloConsole.genruntimeconfig.cache
+/Users/anri6a/Documents/Study/GB/MeetC#/examples/example001_helloConsole/obj/Debug/net6.0/ref/example001_helloConsole.dll
