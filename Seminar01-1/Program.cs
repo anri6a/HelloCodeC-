@@ -1,5 +1,6 @@
 ﻿/*Программа принимающая на вход 3х значное число и на выходе 
 выдает вторую цифру этого числа*/
+
 Console.WriteLine("enter your number");
 //int number = Convert.ToInt32(Console.ReadLine());
 //int number = 879;
