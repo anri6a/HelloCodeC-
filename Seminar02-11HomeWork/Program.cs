@@ -6,6 +6,6 @@ Console.WriteLine("ther is no 3d digit");
 else 
 while (number >= 999) 
 number = number / 10;
-Console.WriteLine(number);
-Console.WriteLine("3d digit is " + number % 10);
+//Console.WriteLine(number);
+Console.WriteLine($"3d digit {number} is {number % 10}");
 
