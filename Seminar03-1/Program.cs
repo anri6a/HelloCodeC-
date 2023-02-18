@@ -1,7 +1,10 @@
 ﻿// Tests
 using static task01;
+using static task07;
+
 
 Ex001Main ();
+//Ex007Main ();
 
 
 
