@@ -1,15 +1,13 @@
 ﻿// Tests
 using static task01;
+using static task02;
 using static task07;
 
 
-Ex001Main ();
+//Ex001Main ();
+Ex002Main ();
+
 //Ex007Main ();
-
-
-
-    // 4. Перемешать
-    // 5. Вывести
 
 // Задачи 2
 // дан массив: наполненный числами от 1 до N
