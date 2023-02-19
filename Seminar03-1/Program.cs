@@ -4,8 +4,8 @@ using static task02;
 using static task07;
 
 
-//Ex001Main ();
-Ex002Main ();
+Ex001Main ();
+//Ex002Main ();
 
 //Ex007Main ();
 

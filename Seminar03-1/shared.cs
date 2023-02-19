@@ -77,20 +77,15 @@ public class Shared
         int number = 0;
         int count = 0;
         int indexInside = 0;
-        while (indexOutside < array.Length)
+        for (indexOutside = 0; indexOutside < array.Length; indexOutside++)
         {
             number = array[indexOutside];
-            while (indexInside < array.Length)
+            for (indexInside = 0; indexInside < array.Length; indexInside++)
             {
                 if (array[indexInside] == number)
                     count++;
-                indexInside++;
             }
-            if (count > 1)
-            {
-                Console.WriteLine(number + " repit " + count + " times");
-            }
-            indexOutside++;
+            Console.WriteLine(number + " repit " + count + " times");
             indexInside = 0;
             count = 0;
         }
