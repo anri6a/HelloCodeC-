@@ -55,4 +55,24 @@ public class Methods
         double difference = Math.Sqrt(diff[0] + diff[1] + diff[2]);
         return difference;
     }
+    public static int[] cubeNumbers(int number)
+    {
+        int[] resultArray = new int[number];
+        for (int i = 0; i < number; i++)
+        {
+            resultArray[i] = Convert.ToInt32(Math.Pow(i+1, 3));
+        }
+        return resultArray;
+    }
+    public static void printArray(int[] resultArray)
+    {
+        for (int i = 0; i < resultArray.Length; i++)
+            Console.Write(resultArray[i] + " ");
+    }
+public static int inputNumberInt(string text)
+    {
+        Console.WriteLine(text);
+        int number = Convert.ToInt32(Console.ReadLine());
+        return number;
+    }
 }
