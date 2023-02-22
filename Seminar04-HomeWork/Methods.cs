@@ -60,7 +60,7 @@ public class Methods
         int[] resultArray = new int[number];
         for (int i = 0; i < number; i++)
         {
-            resultArray[i] = Convert.ToInt32(Math.Pow(i+1, 3));
+            resultArray[i] = Convert.ToInt32(Math.Pow(i + 1, 3));
         }
         return resultArray;
     }
@@ -69,7 +69,7 @@ public class Methods
         for (int i = 0; i < resultArray.Length; i++)
             Console.Write(resultArray[i] + " ");
     }
-public static int inputNumberInt(string text)
+    public static int inputNumberInt(string text)
     {
         Console.WriteLine(text);
         int number = Convert.ToInt32(Console.ReadLine());

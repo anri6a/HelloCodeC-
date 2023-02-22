@@ -12,7 +12,6 @@ public class Task19
 {
     public static void Palindrome()
     {
-        var input = Console.ReadLine();
         string numberStr = inputNumber("enter number: ");
         int[] userArray = convertStringToArray(numberStr);
         isPalindrome(userArray);

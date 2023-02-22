@@ -2,6 +2,6 @@
 using static Task21;
 using static Task23;
 
-//Palindrome();
+Palindrome();
 //dotsDifference();
-cubeNumbersUser();
+//cubeNumbersUser();

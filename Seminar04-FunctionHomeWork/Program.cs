@@ -1,2 +1,5 @@
-﻿using static Task25APowB;                    
-APowB();
+﻿using static Task25APowB;
+using static Task27SumDigits;
+
+//APowB();
+SumOfDigits();
