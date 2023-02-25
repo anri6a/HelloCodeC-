@@ -1,4 +1,4 @@
-using System.Text;
+/*using System.Text;
 StringBuilder sb = new();
 for (int i = 0; i < 1_000_000; i++)
 {
@@ -14,4 +14,5 @@ else
 {
     File.WriteAllText("file.txt", sb.ToString(), Encoding.UTF8);
 }
+*/
 

@@ -3,7 +3,8 @@ public class Methods05
     public static int GetSizeByUser(string message)
     {
         System.Console.WriteLine(message);
-        return size = Convert.ToInt32(Console.ReadLine());
+        int size = Convert.ToInt32(Console.ReadLine());
+        return size;
     }
     public static int[] CreateArray(int size)
     {
