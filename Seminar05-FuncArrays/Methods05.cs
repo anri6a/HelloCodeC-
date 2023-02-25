@@ -21,4 +21,14 @@ public class Methods05
         }
         return sumPositive;
     }
+    public static int FindSumNegativeElements(int[] array)
+    {
+        int sumNegative = 0;
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i]<0)
+            sumNegative += array[i];
+        }
+        return sumNegative;
+    }
 }
