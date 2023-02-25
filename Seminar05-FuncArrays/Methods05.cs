@@ -11,6 +11,13 @@ public class Methods05
             array[i] = new Random().Next(-9, 9);
         }
     }
+    public static void PrintArray(int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
+        }
+    }
     public static int FindSumPositiveElements(int[] array)
     {
         int sumPositive = 0;
