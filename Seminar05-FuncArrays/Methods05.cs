@@ -1,6 +1,11 @@
 public class Methods05
 {
-    public static int [] CreateArray(int size)
+    public static int GetSizeByUser(string message)
+    {
+        System.Console.WriteLine(message);
+        return size = Convert.ToInt32(Console.ReadLine());
+    }
+    public static int[] CreateArray(int size)
     {
         return new int[size];
     }
@@ -23,8 +28,8 @@ public class Methods05
         int sumPositive = 0;
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i]>0)
-            sumPositive += array[i];
+            if (array[i] > 0)
+                sumPositive += array[i];
         }
         return sumPositive;
     }
@@ -33,8 +38,8 @@ public class Methods05
         int sumNegative = 0;
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i]<0)
-            sumNegative += array[i];
+            if (array[i] < 0)
+                sumNegative += array[i];
         }
         return sumNegative;
     }
