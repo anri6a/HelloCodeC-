@@ -43,4 +43,8 @@ public class Methods05
         }
         return sumNegative;
     }
+    public static void PrintResult(int sumPositive, int sumNegative)
+    {
+        Console.WriteLine($"Sum Positive elements is {sumPositive} and Negative is {sumNegative}");
+    }
 }
