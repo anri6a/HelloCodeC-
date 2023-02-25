@@ -4,7 +4,8 @@ public class Methods
     public static string inputNumber(string text)
     {
         Console.WriteLine(text);
-        string numberString = Console.ReadLine();
+        string numberString = string.Empty;
+        numberString = Console.ReadLine();
         return numberString;
     }
     public static int[] convertStringToArray(string numberString)

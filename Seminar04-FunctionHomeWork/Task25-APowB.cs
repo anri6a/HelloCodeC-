@@ -14,4 +14,5 @@ public class Task25APowB
         int Result = ResultAPowB(A, B);
         PrintApowB(Result);
     }
+    
 }

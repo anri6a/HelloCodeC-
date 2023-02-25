@@ -35,4 +35,20 @@ public class Methods04
         int number = Convert.ToInt32(Console.ReadLine());
         return number;
     }
+
+    public static int [] CreateArray(int size)
+{
+    return new int[size]; 
+}
+    public static int [] FillArray(int [] userArray)
+{
+    for (int i = 0; i < userArray.Length; i++)
+    userArray[i] = new Random().Next(0, 100);
+    return userArray;
+}
+    public static void PrintUserArray(int [] userArray)
+    {
+        for (int i = 0; i < userArray.Length; i++)
+        Console.Write(userArray[i] + " ");
+    }
 }
