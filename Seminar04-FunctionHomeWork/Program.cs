@@ -2,6 +2,6 @@
 using static Task25APowB;
 using static Task27SumDigits;
 
-//APowB();
+APowB2();
 //SumOfDigits();
-PrintUserArrayByRange();
+//PrintUserArrayByRange();

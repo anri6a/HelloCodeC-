@@ -7,7 +7,7 @@ Math.Pow использовать нельзя
 using static Methods04;
 public class Task25APowB
 {
-    public static void APowB()
+    public static void APowB2()
     {
         int A = InputNumber("enter A");
         int B = InputNumber("enter B");
