@@ -5,7 +5,7 @@ Math.Pow использовать нельзя
 2, 4 -> 16
 */
 using static Methods04;
-public class Task25APowB
+public class Task25APowB2
 {
     public static void APowB2()
     {
