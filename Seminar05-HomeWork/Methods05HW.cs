@@ -11,7 +11,7 @@ public class Methods05HW
     public static void FillDoubleArrayByRandom(double[] array)
     {
         for (int i = 0; i < array.Length; i++)
-            array[i] = new Random().Next(-100, 100);
+            array[i] = new Random().Next(-10, 10)/100.0;
     }
     public static void FillArray3DigitsByRandom(int[] array)
     {
