@@ -4,6 +4,15 @@ public class Methods05HW
     {
         return new int[size];
     }
+    public static double[] CreateDoubleArray(int size)
+    {
+        return new double[size];
+    }
+    public static void FillDoubleArrayByRandom(double[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+            array[i] = new Random().Next(-100, 100);
+    }
     public static void FillArray3DigitsByRandom(int[] array)
     {
         for (int i = 0; i < array.Length; i++)
@@ -23,6 +32,11 @@ public class Methods05HW
         for (int i = 0; i < array.Length; i++)
             Console.Write(array[i] + " ");
     }
+    public static void PrintDoubleArray(double[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + " ");
+    }
     public static int EvenNumbers(int[] array)
     {
         int countEvenNumbers = 0;
@@ -35,14 +49,25 @@ public class Methods05HW
     public static int SumNotEvenPositionElements(int[] array)
     {
         int sum = 0;
-        for (int i = 1; i < array.Length; i+=2)
+        for (int i = 1; i < array.Length; i += 2)
         {
             sum += array[i];
         }
         return sum;
 
     }
-    public static void PrintResult(int count, string text)
+    public static double DifferenceMinMaxElements(double[] array)
+    {
+        double max = array[0];
+        double min = array[1];
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] > max) max = array[i]; 
+            else if (array[i] < min) min = array[i];
+        }
+        return (max - min);
+    }
+    public static void PrintResult(double count, string text)
     {
         Console.WriteLine($" {text} = {count} ");
     }
