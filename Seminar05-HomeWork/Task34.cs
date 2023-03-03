@@ -8,9 +8,9 @@ public class Task34
     public static void CountEvenNumbers()
     {
         int[] userArray = CreateArray(10);
-        FillArray(userArray);
+        FillArray3DigitsByRandom(userArray);
         PrintArray(userArray);
         int result = EvenNumbers(userArray);
-        PrintResult(result);
+        PrintResult(result, "In Array even numbers");
     }
 }
