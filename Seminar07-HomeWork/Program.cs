@@ -1,2 +1,4 @@
 ﻿using static Task47;
-FillArrayDoubleRandom();
+using static Task50;
+//FillArrayDoubleRandom();
+GetNumberFromArrayByInputPosition();
