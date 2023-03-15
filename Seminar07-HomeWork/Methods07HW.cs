@@ -54,4 +54,41 @@ public class Methods07HW
         }
         else Console.WriteLine("This position not exist!!!");
     }
+    public static void FillArrayByIntRandom(double[,] array)
+    {
+        for (int i = 0; i < array.GetLength(0); i++)
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                array[i, j] = new Random().Next(1, 10);
+            }
+        }
+    }
+    public static double[,] ReverseArray(double[,] array)
+    {
+        double[,] newArray = new double[array.GetLength(1), array.GetLength(0)];
+        for (int i = 0; i < array.GetLength(0); i++)
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                newArray[j, i] = array[i, j];
+            }
+        }
+        return newArray;
+    }
+    public static void ArithmeticMeansOfColumn(double[,] array)
+    {
+        for (int i = 0; i < array.GetLength(0); i++)
+        {
+            double mean = 0;
+            double sum = 0;
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                sum += array[i, j];
+            }
+            mean = sum / array.GetLength(1);
+            Console.Write(Math.Round(mean, 2) + " ");
+        }
+        Console.WriteLine();
+    }
 }
