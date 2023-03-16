@@ -1,1 +1,2 @@
-﻿
+﻿using static Task54;
+

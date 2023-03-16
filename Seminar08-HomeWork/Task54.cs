@@ -9,3 +9,11 @@
 // 7 4 2 1
 // 9 5 3 2
 // 8 4 4 2
+using static Methods08HW;
+public class Task54
+{
+    int row = Input("Enter number of rows: ");
+    int col = Input("Enter number of columns: ");
+    int [,] workArray = CreateArray(row, col);
+    FillArrayByRandom();
+}
