@@ -12,8 +12,15 @@
 using static Methods08HW;
 public class Task54
 {
-    int row = Input("Enter number of rows: ");
-    int col = Input("Enter number of columns: ");
-    int [,] workArray = CreateArray(row, col);
-    FillArrayByRandom();
+    public static void OrderElementsStringInArray()
+    {
+        int row = Input("Enter number of rows: ");
+        int col = Input("Enter number of columns: ");
+        int[,] workArray = CreateArray(row, col);
+        FillArrayByRandom(workArray);
+        PrintArray(workArray);
+        SortArrayByDescendingInString(workArray);
+        Console.WriteLine();
+        PrintArray(workArray);
+    }
 }
