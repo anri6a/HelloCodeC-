@@ -9,3 +9,15 @@
 // Программа считает сумму элементов в каждой строке и выдаёт номер 
 // строки с наименьшей суммой элементов: 1 строка
 using static Methods08HW;
+public class Task56
+{
+    public static void StringWithMinimalSumElements()
+    {
+        int row = Input("Enter row number: ");
+        int column = Input("Enter column number: ");
+        int [, ] workArray = CreateArray(row, column);
+        FillArrayByRandom(workArray);
+        PrintArray(workArray);
+        MinimalSumElementsInString(workArray);
+    }
+}
