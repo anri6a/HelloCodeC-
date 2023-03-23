@@ -78,4 +78,25 @@ public class Methods08HW
         }
         Console.WriteLine("String with minimal summ elements is : " + stringNumber);
     }
+    public static bool IsPosibleMiltiplicateArrays(int[,] array1, int[,] array2)
+    {
+        bool posible = false;
+        if (array1.GetLength(0) == array2.GetLength(1)) posible = true;
+        return posible;
+    }
+    public static int[,] MultiplicationArrays(int[,] array1, int[,] array2)
+    {
+        int[,] resultArray = new int[array1.GetLength(0), array2.GetLength(1)];
+        for (int i = 0; i < array1.GetLength(0); i++)
+        {
+            for (int j = 0; j < array2.GetLength(1); j++)
+            {
+                for (int k = 0; k < array1.GetLength(1); k++)
+                {
+                    resultArray[i, j] += array1[i, k] * array2[k, j];
+                }
+            }
+        }
+        return resultArray;
+    }
 }
