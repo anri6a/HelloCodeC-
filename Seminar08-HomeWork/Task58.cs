@@ -15,8 +15,8 @@ public class Task58
         int columnArray1 = Input("Input column numbers in 1st array: ");
         int rowArray2 = Input("Input row numbers in 2nd array: ");
         int columnArray2 = Input("Input column numbers in 2nd array: ");
-        int [, ] workArray1 = new int[rowArray1, columnArray1];
-        int [, ] workArray2 = new int[rowArray2, columnArray2];
+        int[,] workArray1 = new int[rowArray1, columnArray1];
+        int[,] workArray2 = new int[rowArray2, columnArray2];
         FillArrayByRandom(workArray1);
         FillArrayByRandom(workArray2);
         PrintArray(workArray1);
