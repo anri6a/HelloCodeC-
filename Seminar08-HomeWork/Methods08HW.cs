@@ -11,6 +11,11 @@ public class Methods08HW
         int[,] array = new int[row, col];
         return array;
     }
+    public static int[,,] CreateArrayTridimentional(int row, int col, int depth)
+    {
+        int[,,] tridimentionalArray = new int[row, col, depth];
+        return tridimentionalArray;
+    }
     public static void FillArrayByRandom(int[,] array)
     {
         for (int i = 0; i < array.GetLength(0); i++)
@@ -20,6 +25,38 @@ public class Methods08HW
                 array[i, j] = new Random().Next(0, 10);
             }
         }
+    }
+    public static void FillTridimentionalArrayByRandom(int[,,] tridimentionalArray)
+    {
+        for (int i = 0; i < tridimentionalArray.GetLength(0); i++)
+        {
+            for (int j = 0; j < tridimentionalArray.GetLength(1); j++)
+            {
+                for (int k = 0; k < tridimentionalArray.GetLength(2); k++)
+                {
+                    int temp = new Random().Next(10, 99);
+                    while (IsDuplicate(temp, tridimentionalArray))
+                    {
+                        temp = new Random().Next(10, 99);
+                    }
+                    tridimentionalArray[i, j, k] = temp;
+                }
+            }
+        }
+    }
+    public static bool IsDuplicate(int temp, int[,,] tridimentionalArray)
+    {
+        for (int i = 0; i < tridimentionalArray.GetLength(0); i++)
+        {
+            for (int j = 0; j < tridimentionalArray.GetLength(1); j++)
+            {
+                foreach (var item in tridimentionalArray)
+                {
+                    if (item == temp) return true;
+                }
+            }
+        }
+        return false;
     }
     public static int[,] SortArrayByDescendingInString(int[,] array)
     {
@@ -52,6 +89,20 @@ public class Methods08HW
                 Console.Write(array[i, j] + " ");
             }
             Console.WriteLine();
+        }
+    }
+    public static void PrintTridimentionalArray(int[,,] tridimentionalArray)
+    {
+        for (int i = 0; i < tridimentionalArray.GetLength(0); i++)
+        {
+            for (int j = 0; j < tridimentionalArray.GetLength(1); j++)
+            {
+                for (int k = 0; k < tridimentionalArray.GetLength(2); k++)
+                {
+                    Console.Write(tridimentionalArray[i, j, k] + "(" + i + "," + j + "," + k + ")" + "\t");
+                }
+                Console.WriteLine();
+            }
         }
     }
     public static void MinimalSumElementsInString(int[,] array)

@@ -7,3 +7,13 @@
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 using static Methods08HW;
+public class Task60
+{
+    public static void PrintTridimentionalArrayWithIndex()
+    {
+        int[,,] workTridimmentionalArray = CreateArrayTridimentional(2,2,2);
+        FillTridimentionalArrayByRandom(workTridimmentionalArray);
+        PrintTridimentionalArray(workTridimmentionalArray);
+
+    }
+}
