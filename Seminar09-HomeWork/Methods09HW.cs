@@ -17,4 +17,10 @@ public class Methods09HW
         if (M > N) return 0;
         return M + OutputSumIntMN(M + 1, N);
     }
+    public static int AckFunc(int m, int n)
+    {
+        if (m == 0) return (n + 1);
+        else if ((m != 0) && (n == 0)) return AckFunc(m - 1, 1);
+        else return AckFunc(m - 1, AckFunc(m, n - 1));
+    }
 }
