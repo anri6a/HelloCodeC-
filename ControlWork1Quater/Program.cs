@@ -5,3 +5,4 @@ string[] workArray = { "hello", "2", "world", ":-)" };
 //string[] workArray = { "Russia", "Denmark", "Kazan" };
 
 ArrayToChar (workArray);
+PrintArray(workArray);
