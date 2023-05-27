@@ -21,7 +21,7 @@ public class MethodsCW
             if (array[i] != "")
                 Console.Write($"{array[i]}, ");
         }
-        Console.Write($"{array[array.Length - 1]}]");
+        Console.WriteLine($"{array[array.Length - 1]}]");
     }
 
 }
